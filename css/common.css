@@ -147,7 +147,7 @@ table {
   text-align: right;
   margin-top: 34px;
   float: right;
-  *zoom: 1;
+  
 }
 .art-nav:before,
 .art-nav:after {
@@ -371,7 +371,7 @@ table {
   clear: both;
 }
 .slicknav_menu {
-  *zoom: 1;
+  
 }
 .slicknav_menu {
   position: relative;
@@ -592,7 +592,7 @@ blockquote:after {
 }
 /*!Default section_______________________________________________*/
 .form_line {
-  *zoom: 1;
+  
 }
 .form_line:before,
 .form_line:after {
@@ -822,7 +822,6 @@ input[type='url']:focus,
 select:focus,
 textarea:focus {
   outline: none;
-  border-color: #c1a894;
 }
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
@@ -909,7 +908,7 @@ body {
 section,
 article {
   clear: both;
-  *zoom: 1;
+  
 }
 section:before,
 article:before,
@@ -925,7 +924,7 @@ article:after {
 #page_wrap {
   height: auto;
   min-height: 100%;
-  padding-bottom: 395px;
+  padding-bottom: 324px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -933,8 +932,8 @@ article:after {
   background: url("../img/lightshadow@2x.png") top left no-repeat;
 }
 #page_wrap + footer {
-  margin-top: -375px;
-  height: 375px;
+  margin-top: -294px;
+  height: 294px;
   clear: both;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -942,7 +941,7 @@ article:after {
 }
 #rapper,
 .rapper {
-  *zoom: 1;
+  
   width: auto;
   max-width: 980px;
   float: none;
@@ -965,7 +964,7 @@ article:after {
   clear: both;
 }
 .content_area {
-  *zoom: 1;
+  
   display: table;
   position: relative;
   table-layout: fixed;
@@ -982,7 +981,7 @@ article:after {
 .top {
   padding: 18px 0 9px;
   text-align: right;
-  *zoom: 1;
+  
 }
 .top:before,
 .top:after {
@@ -1161,7 +1160,7 @@ article:after {
   border-top: 2px solid #e3dad3;
 }
 .section_col_2 {
-  *zoom: 1;
+  
   float: left;
   clear: none;
   text-align: inherit;
@@ -1188,7 +1187,7 @@ article:after {
   font: 12px 'metapro', tahoma, Arial, sans-serif;
   font-weight: 700;
   padding: 20px 0;
-  *zoom: 1;
+  
 }
 #foobox:before,
 #foobox:after {
@@ -1222,7 +1221,9 @@ article:after {
   text-decoration: underline;
 }
 .footer_nav_other .imgforum {
-  right: -20px;
+  position: static;
+  float: left;
+  margin-right: 5px;
 }
 .footer_nav_link {
   font: 12px/1.5 'metapro', tahoma, Arial, sans-serif;
@@ -1245,7 +1246,7 @@ article:after {
   background-color: #120b05;
   color: #8f796e;
   padding: 10px 0;
-  *zoom: 1;
+  
 }
 #foobot:before,
 #foobot:after {
@@ -1256,7 +1257,7 @@ article:after {
   clear: both;
 }
 .footer_service {
-  *zoom: 1;
+  
   float: left;
   clear: none;
   text-align: inherit;
@@ -1283,11 +1284,10 @@ article:after {
   float: left;
 }
 .footer_rss {
-  *zoom: 1;
   float: left;
   clear: none;
-  text-align: inherit;
-  width: 39.9166666666667%;
+  text-align: center;
+  width: 50%;
   margin-left: 0%;
   margin-right: 3%;
 }
@@ -1303,13 +1303,9 @@ article:after {
   margin-right: 0%;
 }
 .footer_owner {
-  *zoom: 1;
-  float: left;
+  float: right;
   clear: none;
   text-align: inherit;
-  width: 22.75%;
-  margin-left: 0%;
-  margin-right: 3%;
   text-align: right;
   font: 12px 'metapro', tahoma, Arial, sans-serif;
   font-weight: 700;
@@ -1334,12 +1330,12 @@ article:after {
   margin-top: 10px;
 }
 .form_footer_rss .rss_mail {
-  width: 60%;
-  background-color: #271409;
-  color: #fff;
+  width: 40%;
+  color: #87776B;
+  background: #130A05;
+  border-color: #4B2C1D;
   padding: 5px 10px;
-  border-radius: 2px;
-  border: 0;
+  border-radius: 6px;
   -webkit-box-shadow: 0 1px 0 rgba(57,35,23,0.4), inset 0 1px 2px rgba(9,4,1,0.75);
   box-shadow: 0 1px 0 rgba(57,35,23,0.4), inset 0 1px 2px rgba(9,4,1,0.75);
 }
@@ -1769,7 +1765,7 @@ article:after {
   background: url("../img/bg_slider.png") top right no-repeat;
   overflow: hidden;
   position: relative;
-  *zoom: 1;
+  
 /*.slider_content_wrap
     width 40%
     float right
@@ -2017,7 +2013,7 @@ input:disabled {
   margin-bottom: 20px;
 }
 .modal_form_wrap {
-  *zoom: 1;
+  
   background-color: #f6efde;
   padding: 20px;
 }
@@ -2083,7 +2079,7 @@ input:disabled {
 .section_header_wrap {
   margin: 40px 0 20px;
   position: relative;
-  *zoom: 1;
+  
 }
 .section_header_wrap:before,
 .section_header_wrap:after {
@@ -2177,7 +2173,7 @@ input:disabled {
   border-radius: 0.7em;
   background: url("../img/fon2.png");
   padding: 24px 24px 0 24px;
-  *zoom: 1;
+  
 }
 .category_tab:before,
 .category_tab:after {
@@ -2188,7 +2184,7 @@ input:disabled {
   clear: both;
 }
 .category_tab_item {
-  *zoom: 1;
+  
   float: left;
   clear: none;
   text-align: inherit;
@@ -2233,10 +2229,21 @@ input:disabled {
   display: block;
   color: #0086a4;
 }
+.pop_tab__banner {
+  margin-bottom: 5px;
+}
+.pop_tab__img {
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  height: auto;
+}
+.category_tab_link:hover .pop_tab__img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
 .about_section {
   font: 400 12px/1.4em 'metapro', tahoma, verdana, helvetica, sans-serif;
   float: left;
-  *zoom: 1;
 }
 .about_section:before,
 .about_section:after {
@@ -2246,6 +2253,32 @@ input:disabled {
 .about_section:after {
   clear: both;
 }
+
+.ol-bullet {
+  counter-reset: item;
+}
+
+.ol-bullet li {
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.ol-bullet li:before {
+  content: counter(item); 
+  counter-increment: item;
+  color: #FFF;
+  font: 500 15px/21px 'metapro', tahoma, verdana, helvetica, sans-serif; ;
+  text-align: center;
+  display: inline-block;
+  background: url('../img/icon-home.png') no-repeat -385px -15px;
+  width: 25px;
+  height: 26px;
+  position: absolute;
+  top: -3px;
+  left: 0;
+}
+
 /*Стили внутренних элементов*/
 .pad {
   padding: 20px;
@@ -2258,7 +2291,7 @@ input:disabled {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  *zoom: 1;
+  
 }
 .bg_box:before,
 .bg_box:after {
@@ -2296,7 +2329,7 @@ input:disabled {
   vertical-align: middle;
 }
 .article {
-  *zoom: 1;
+  
 }
 .article:before,
 .article:after {
@@ -2527,7 +2560,7 @@ blockquote:after {
   padding: 10px;
 }
 .kupon_short_list {
-  *zoom: 1;
+  
 }
 .kupon_short_list:before,
 .kupon_short_list:after {
@@ -2538,7 +2571,7 @@ blockquote:after {
   clear: both;
 }
 .main_content .kupon_item_wrap {
-  *zoom: 1;
+  
   float: left;
   clear: none;
   text-align: inherit;
@@ -2564,7 +2597,7 @@ blockquote:after {
 }
 /*Main collum __________________________*/
 .main_content {
-  *zoom: 1;
+  
   float: left;
   clear: none;
   text-align: inherit;
@@ -2586,13 +2619,13 @@ blockquote:after {
   margin-right: 0%;
 }
 .bg_box + .bg_box {
-  margin-top: 22px;
+  margin-top: 16px;
 }
 .breadcrumb {
   margin-bottom: 30px;
   border-bottom: 1px solid #e9ded4;
   padding-bottom: 20px;
-  *zoom: 1;
+  
 }
 .breadcrumb:before,
 .breadcrumb:after {
@@ -2683,7 +2716,7 @@ blockquote:after {
   margin-top: 10px;
 }
 .sidebar {
-  *zoom: 1;
+  
   float: left;
   clear: none;
   text-align: inherit;
@@ -2713,7 +2746,7 @@ blockquote:after {
 /*Блоки в сайдбаре______________________________*/
 .side_section_header {
   position: relative;
-  *zoom: 1;
+  
   margin-bottom: 20px;
 }
 .side_section_header:before,
@@ -2798,7 +2831,7 @@ blockquote:after {
 }
 .review_list {
   margin-bottom: 20px;
-  *zoom: 1;
+  
 }
 .review_list:before,
 .review_list:after {
@@ -2892,7 +2925,7 @@ blockquote:after {
     box-sizing: border-box;
   }
   .mobile .footer_service {
-    *zoom: 1;
+    
     float: left;
     clear: none;
     text-align: inherit;
@@ -2915,7 +2948,7 @@ blockquote:after {
     display: none;
   }
   .mobile .footer_rss {
-    *zoom: 1;
+    
     float: left;
     clear: none;
     text-align: inherit;
@@ -2938,7 +2971,7 @@ blockquote:after {
 
 @media screen and (max-width: 800px) {
   .mobile .category_tab_item {
-    *zoom: 1;
+    
     float: left;
     clear: none;
     text-align: inherit;
@@ -3060,7 +3093,7 @@ blockquote:after {
     display: none;
   }
   .mobile .mob_full_link {
-    *zoom: 1;
+    
     float: left;
     clear: none;
     text-align: inherit;
@@ -3080,7 +3113,7 @@ blockquote:after {
     margin-right: 0%;
   }
   .mobile .footer_owner {
-    *zoom: 1;
+    
     float: left;
     clear: none;
     text-align: inherit;
@@ -3110,7 +3143,7 @@ blockquote:after {
     width: 100%;
   }
   .mobile .category_tab_item {
-    *zoom: 1;
+    
     float: left;
     clear: none;
     text-align: inherit;
@@ -3161,7 +3194,7 @@ blockquote:after {
 
 @media screen and (max-width: 360px) {
   .mobile .category_tab_item {
-    *zoom: 1;
+    
     float: left;
     clear: none;
     text-align: inherit;
