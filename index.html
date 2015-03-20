@@ -219,7 +219,7 @@
                 <div class="step_item_txt">Контроль отправки и перемещения. Растоможка.</div></a></li>
           </ul>
           <div class="section_header_wrap">
-            <div class="section_header"><a href="">
+            <div class="section_header"><a href="#" class="section_title_link">
                 <h2 class="section_title"><span class="homic img1 section_header_icon"></span>КАТАЛОГ МАГАЗИНОВ</h2></a></div>
           </div>
           <div class="category_tab_wrap">    
@@ -315,27 +315,46 @@
             <div class="section_header_wrap"><a href="#" class="section_title_link"><span class="homic img5 section_header_icon"></span>
                 <h2 class="section_title">Новое на форуме</h2></a><a href="#" class="right__block link_all">Все темы</a></div>
             <ul class="topic_review_wrap">
-              <li class="topic_review_item bg_box"><a href="#" class="topic_review_link">
+              <li class="topic_review_item bg_box">
+                <a href="#" class="topic_review_link">
                   <div class="topic_review_header">
                     <div class="data">12.12.2014</div>
                     <div class="user">Nikela</div>
                   </div>
                   <div class="topic_review_content">Новый интернет магазин модной одежды</div>
-                  <div class="topic_review_count">556</div></a></li>
-              <li class="topic_review_item bg_box"><a href="#" class="topic_review_link">
+                  <div class="topic_review_count">556</div>
+                </a>
+              </li>
+              <li class="topic_review_item bg_box">
+                <a href="#" class="topic_review_link">
                   <div class="topic_review_header">
                     <div class="data">01.10.2014</div>
                     <div class="user">AndrewBlack</div>
                   </div>
                   <div class="topic_review_content">Правила получения скидок по купонам</div>
-                  <div class="topic_review_count">40</div></a></li>
-              <li class="topic_review_item bg_box"><a href="#" class="topic_review_link">
+                  <div class="topic_review_count">40</div>
+                </a>
+              </li>
+              <li class="topic_review_item bg_box">
+                <a href="#" class="topic_review_link">
                   <div class="topic_review_header">
                     <div class="data">01.10.2014</div>
                     <div class="user">Super Star Internet Girl</div>
                   </div>
                   <div class="topic_review_content">Самые удобные корзины в интернет-магазине. И вообще длинный текст какой-то</div>
-                  <div class="topic_review_count">2000</div></a></li>
+                  <div class="topic_review_count">2000</div>
+                </a>
+              </li>
+               <li class="topic_review_item bg_box">
+                <a href="#" class="topic_review_link">
+                  <div class="topic_review_header">
+                    <div class="data">01.10.2014</div>
+                    <div class="user">AndrewBlack</div>
+                  </div>
+                  <div class="topic_review_content">Правила получения скидок по купонам</div>
+                  <div class="topic_review_count">40</div>
+                </a>
+              </li>
             </ul>
           </section>
           <secion class="about_section">
@@ -356,10 +375,71 @@
                   <li>отсутствие географических ограничений - доступ к магазинам всего мира;</li>
                   <li>отсутствие временных ограничений: 24 часа в сутки 7 дней в неделю.</li>
                 </ul>
-                <div class="read_more"><a href="#" class="read_more_link">Читать далее</a></div>
               </div>
             </div>
           </secion>
+          <section class="social-wiget">
+            <div class="section_header_wrap"><a href="#" class="section_title_link"><span class="homic img4 section_header_icon"></span>
+                <h2 class="section_title">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h2></a></div>
+            <div class="social-widget__out">
+              <div class="section_col_2">
+                  <div id="ok_group_widget"></div>
+                  <script>
+                  !function (d, id, did, st) {
+                    var js = d.createElement("script");
+                    js.src = "http://connect.ok.ru/connect.js";
+                    js.onload = js.onreadystatechange = function () {
+                    if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+                      if (!this.executed) {
+                        this.executed = true;
+                        setTimeout(function () {
+                          OK.CONNECT.insertGroupWidget(id,did,st);
+                        }, 0);
+                      }
+                    }}
+                    d.documentElement.appendChild(js);
+                  }(document,"ok_group_widget","50829344571578","{width:450,height:250}");
+                  </script>
+              </div>
+              <div class="section_col_2">
+                <script type="text/javascript">
+                    var Social_VK_caller = function() { 
+                      VK.init({apiId: 2401622, onlyWidgets: true});
+                      for (var i=0; i<3; i++) { window.Social_VK[i](); }
+                    }
+                    var Social_VK_loader = function() {
+                       var oHead = document.getElementsByTagName("head")[0];
+                       var oScript= document.createElement("script");
+                       oScript.type = "text/javascript";
+                       oScript.src="http://userapi.com/js/api/openapi.js?105";
+                       oHead.appendChild(oScript);        
+                       oScript.onload=Social_VK_caller;
+                    };
+                    if ( document.addEventListener ) {
+                        document.addEventListener("DOMContentLoaded", function(){
+                            document.removeEventListener("DOMContentLoaded", arguments.callee, false);
+                            Social_VK_loader();
+                        }, false );
+                   } else if ( document.attachEvent ) {
+                        document.attachEvent("onreadystatechange", function(){
+                            if ( document.readyState === "complete" ) {
+                                document.detachEvent( "onreadystatechange", arguments.callee );
+                                Social_VK_loader();
+                            }
+                        });
+                   }
+                </script>
+
+                <div id="vk_groups"></div>
+                <script type="text/javascript">
+                if ( typeof window.Social_VK=="undefined" ) window.Social_VK = new Array();
+                window.Social_VK.push(function() {
+                  VK.Widgets.Group("vk_groups", {mode: 0, width: "450", height: "250", color1: 'ffffff', color2: '2e181b', color3: '351f12'}, 21553922);
+                });
+                </script>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </div>
@@ -431,6 +511,7 @@
               <li class="fbook"><a href="http://www.facebook.com/shopzona.info" target="_blank" title="Перейти на страничку в Фейсбуке"></a></li>
               <li class="vk"><a href="http://vk.com/shopzona_info" target="_blank" title="Перейти в группу вКонтакте"></a></li>
               <li class="ingrm"><a href="http://instagram.com/shop_zona#" target="_blank" title="Перейти на страницу в Инстаграмме"></a></li>
+              <li class="odks"><a title="Перейти на страницу в Одноклассниках" target="_blank" href="http://ok.ru/shopzona"></a></li>
             </ul>
           </div>
           <div class="footer_rss">
