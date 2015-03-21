@@ -36,15 +36,15 @@ $(document).ready(function() {
     'transitionIn': 'slideDown'
   });
 
-  $('.kupon_short_list').bxSlider({
-      slideWidth: 304,
-      minSlides: 1,
-      maxSlides: 3,
-      moveSlides: 1,
-      slideMargin: 15,
-      infiniteLoop: false,
-      pager: false,
-      hideControlOnEnd: true
-    });
+  // $('.kupon_short_list').bxSlider({
+  //     slideWidth: 304,
+  //     minSlides: 1,
+  //     maxSlides: 3,
+  //     moveSlides: 1,
+  //     slideMargin: 15,
+  //     infiniteLoop: false,
+  //     pager: false,
+  //     hideControlOnEnd: true
+  //   });
 
 });
