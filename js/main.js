@@ -3,14 +3,10 @@ $(document).ready(function() {
     label: "МЕНЮ",
     prependTo: $('.top_line_header')
   });
+  $('.slicknav_menu').click(function(event){ event.stopPropagation();});
 
-  // $(document).on('click', function(e){
-  //   if ($(e.target).parents().filter('.slicknav_nav').length != 1) {
-  //     $('.art-menu').slicknav('close')
-  //   };       
-  // });
+  $(document).click(function () { $(".art-menu").slicknav('close') });
 
-  $('body').addClass('mobile');
 });
 
 $(document).ready(function() {

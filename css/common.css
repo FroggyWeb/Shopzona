@@ -274,10 +274,17 @@ table {
   border-bottom: #b5a395 1px solid;
 }
 .art-menu .r05b,
-.art-menu .ghj,
-.art-menu .topul {
+.art-menu .ghj {
   border-radius: 0 0 0.5em 0.5em;
 }
+.art-menu .topul{
+  border-radius: 0 0.5em 0.5em 0.5em;
+}
+
+.topul li:first-child>a{
+  border-radius: 0 0.5em 0 0;
+}
+
 .art-menu .topul {
   font-size: 13px;
   -webkit-box-shadow: 0 2px 9px rgba(0,0,0,0.4);
@@ -355,6 +362,10 @@ table {
 }
 .slicknav_nav .slicknav_row {
   display: block;
+}
+.slicknav_nav .art-menu__item {
+  float: none;
+  margin: 0;
 }
 .slicknav_nav a {
   display: block;
