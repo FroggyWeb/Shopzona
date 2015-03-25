@@ -1,11 +1,12 @@
 $(document).ready(function() {
   $('.art-menu').slicknav({
-    label: "МЕНЮ",
-    prependTo: $('.top_line_header')
+    label: "",
+    //prependTo: $('.top_line_header')
+    prependTo: $('.art-nav')
   });
-  $('.slicknav_menu').click(function(event){ event.stopPropagation();});
+  // $('.slicknav_menu').click(function(event){ event.stopPropagation();});
 
-  $(document).click(function () { $(".art-menu").slicknav('close') });
+  // $(document).click(function () { $(".art-menu").slicknav('close') });
 
 });
 
