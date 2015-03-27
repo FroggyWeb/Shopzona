@@ -32,10 +32,15 @@
             </ul>
             <div class="search_google">
               <form method="post" action="/forum/search.php">
-                <input id="q" type="search" name="q" placeholder="Поиск..." class="google_poisk">
+                <input type="search" name="q" placeholder="Поиск..." class="google_poisk">
                 <input type="submit" value="" class="google_poisk_2 googlebut">
               </form>
             </div>
+          </div>
+          <div class="mob-small">
+            <a href="#mob-social" class="mob-pse-link mob-pse-social"></a>
+            <a href="mailto:shopzona@gmail.com" class="mob-pse-mail"></a>
+            <a href="#mob-search" class="mob-pse-link mob-pse-search"></a>
           </div>
           <nav class="art-nav">
             <ul class="art-menu">
@@ -156,6 +161,24 @@
         </div>
         <div class="topdelem"></div>
         <div class="content_area">
+          <div class="mob-popup" id="mob-social">
+              <span class="mob-popup__title">Следите за нами:</span>
+              <ul class="iconbox">
+                <li class="twit"><a href="http://twitter.com/shopzona" target="_blank" title="Следить за нами в твиттере"></a></li>
+                <li class="fbook"><a href="http://www.facebook.com/shopzona.info" target="_blank" title="Перейти на страничку в Фейсбуке"></a></li>
+                <li class="vk"><a href="http://vk.com/shopzona_info" target="_blank" title="Перейти в группу вКонтакте"></a></li>
+                <li class="ingrm"><a href="http://instagram.com/shop_zona#" target="_blank" title="Перейти на страницу в Инстаграмме"></a></li>
+                <li class="odks"><a title="Перейти на страничку в Одноклассниках" target="_blank" href="http://ok.ru/shopzona"></a></li>
+              </ul>
+            </div>
+            <div class="mob-popup" id="mob-search">
+              <div class="search_google">
+                <form method="post" action="/forum/search.php">
+                  <input type="search" name="q" placeholder="Поиск..." class="google_poisk">
+                  <input type="submit" value="" class="google_poisk_2 googlebut">
+                </form>
+              </div>
+            </div>
           <div class="welcome">
             <div class="welcome__baner">
               <a rel="nofollow" title="Перейти в магазин Teabox" target="_blank" href="http://www.teabox.com/ru/chaj?utm_source=shopzona&;utm_medium=banner&;utm_content=20off&;utm_campaign=20off_shopzona" style="border: 0px none;"><img border="0" src="http://www.shopzona.info/images/stories/teabox-banner.png"></a>
@@ -603,6 +626,7 @@
         </div>
       </div>
     </footer>
+    <div id="up-btn"></div>
   </body><!--[if lte IE 9]>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="js/jquery.placeholder.min.js"></script>
@@ -614,5 +638,6 @@
   <script src="js/jquery.slicknav.min.js"></script>
   <script src="js/jquery.fractionslider.min.js"></script>
   <script src="js/jquery.easytabs.min.js"></script>
+  <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
 </html>
