@@ -746,7 +746,7 @@ em, i {
 .ul-bullet li, .article li {
   padding-left: 15px;
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
   overflow: hidden;
 }
 
@@ -755,11 +755,11 @@ em, i {
   content: " ";
   color: #FFF;
   display: inline-block;
-  background: url('../img/icon-home.png') no-repeat -399px -22px;
-  width: 9px;
-  height: 9px;
+  background: url('../img/icon-home.png') no-repeat -398px -21px;
+  width: 11px;
+  height: 11px;
   position: absolute;
-  top: 5px;
+  top: 4px;
   left: 0;
 }
 
@@ -2165,12 +2165,13 @@ fieldset {
 .topic_review_item {
   font-family: 'metapro', tahoma, Arial, sans-serif;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   position: relative;
 }
 
 .topic_review_link {
   display: table;
+  width: 100%;
 }
 
 .topic_review_link:hover .topic_review_content{
@@ -2195,10 +2196,10 @@ fieldset {
 }
 
 .topic_review_count {
-  position: absolute;
+  /*position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0;*/
   width: 35px;
   line-height: 40px;
   text-align: center;
@@ -2207,6 +2208,8 @@ fieldset {
   color: #0199bc;
   text-shadow: 0 1px 0 #fff;
   border-left: #0199bc 1px solid;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .topic_review_header,  
@@ -2216,9 +2219,9 @@ fieldset {
   padding: 5px 10px;
 }
 
-.topic_review_content {
+/*.topic_review_content {
   padding-right: 40px;
-}
+}*/
 
 blockquote {
   font-style: italic;
@@ -2232,18 +2235,18 @@ blockquote:after {
   content: " ";
   display: block;
   position: absolute;
-  width: 14px;
+  width: 16px;
   height: 13px;
 }
 blockquote:before {
   top: 0;
   left: 0;
-  background-position: -268px -63px;
+  background-position: -267px -62px;
 }
 blockquote:after {
   bottom: 0;
   right: 0;
-  background-position: -293px -61px;
+  background-position: -292px -61px;
 }
 
 .banner {
@@ -2257,6 +2260,7 @@ blockquote:after {
 
 .banner_wrap img {
   padding: 10px;
+  box-sizing: border-box;
 }
 /*Купоны __________________________*/
 .kupon_item_wrap {
@@ -2402,7 +2406,7 @@ blockquote:after {
   clear: both;
 }
 .breadcrumb_item {
-  font: 500 14px 'metapro', tahoma, Arial, sans-serif;
+  font: 500 14px/1.4 'metapro', tahoma, Arial, sans-serif;
   float: left;
 }
 .breadcrumb_item:nth-last-child(n+2):after {
@@ -2566,6 +2570,7 @@ blockquote:after {
   left: -72.9583333333333%;
   font-size: 12px;
   line-height: 1.2em;
+  padding-top: 20px;
 }
 .sidebar:before,
 .sidebar:after {
