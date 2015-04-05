@@ -728,6 +728,14 @@ em, i {
   text-transform: uppercase;
   color: #695a50;
 }
+.article  .article-title__link {
+  color: #de1611;
+  text-decoration: none;
+}
+.article  .article-title__link:hover {
+  color: #de1611;
+  text-decoration: underline;
+}
 .article h2,
 .article h3 {
   font: 18px 'metapro', tahoma, Arial, sans-serif;
@@ -736,7 +744,7 @@ em, i {
   color: #695a50;
 }
 .ul-bullet li, .article li {
-  padding-left: 30px;
+  padding-left: 15px;
   position: relative;
   margin-bottom: 15px;
   overflow: hidden;
@@ -747,11 +755,11 @@ em, i {
   content: " ";
   color: #FFF;
   display: inline-block;
-  background: url('../img/icon-home.png') no-repeat -385px -15px;
-  width: 25px;
-  height: 26px;
+  background: url('../img/icon-home.png') no-repeat -399px -22px;
+  width: 9px;
+  height: 9px;
   position: absolute;
-  top: -3px;
+  top: 5px;
   left: 0;
 }
 
@@ -799,7 +807,7 @@ em, i {
   outline: none;
 }
 .article a:hover {
-  color: #0086a4;
+  color: #341d12;
   text-decoration: underline;
 }
 .article p img {
@@ -809,7 +817,7 @@ em, i {
 
 /*_____________________________________________________*/
 a {
-  color: #341d12;
+  color: inherit;
   text-decoration: none;
 }
 ul,
@@ -2127,7 +2135,7 @@ fieldset {
 .review_content {
   overflow: hidden;
   font-family: 'metapro', tahoma, Arial, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 .review .review_title {
   margin-bottom: 10px;
@@ -2225,7 +2233,7 @@ blockquote:after {
   display: block;
   position: absolute;
   width: 14px;
-  height: 12px;
+  height: 13px;
 }
 blockquote:before {
   top: 0;
@@ -2235,14 +2243,20 @@ blockquote:before {
 blockquote:after {
   bottom: 0;
   right: 0;
-  background-position: -293px -62px;
+  background-position: -293px -61px;
 }
-.banner_wrap {
-  padding: 10px;
+
+.banner {
+  overflow: hidden;
 }
+
 .banner_wrap img,
 .banner_wrap object {
   width: 100%;
+}
+
+.banner_wrap img {
+  padding: 10px;
 }
 /*Купоны __________________________*/
 .kupon_item_wrap {
@@ -2374,7 +2388,7 @@ blockquote:after {
   margin-top: 16px;
 }
 .breadcrumb {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #e9ded4;
   padding-bottom: 20px;
   
@@ -2433,6 +2447,10 @@ blockquote:after {
   font-weight: 500;
 }
 
+.post__data {
+  color: #cf4502;
+}
+
 .post_cnt {
   margin-left: 20px;
 }
@@ -2470,7 +2488,7 @@ blockquote:after {
   content: " ";
   display: inline-block;
   background: url('../img/icon-home.png') no-repeat -465px -132px;
-  width: 8px;
+  width: 7px;
   height: 11px;
   margin-right: 5px;
 }
@@ -2563,6 +2581,7 @@ blockquote:after {
 .section_side {
   margin-bottom: 30px;
   font-size: 12px;
+  line-height: 1.4;
 }
 /*Блоки в сайдбаре______________________________*/
 .side_section_header {
@@ -2620,7 +2639,7 @@ blockquote:after {
   width: 100%;
 }
 .inside_sec {
-  margin: 40px 0 20px;
+  margin: 30px 0;
 }
 .title_separate {
   text-transform: uppercase;
@@ -2839,12 +2858,6 @@ blockquote:after {
   .review_list_intro {
     overflow: visible;
   }
-}
-
-@media screen and (max-width: 760px) {
-  .top_line_header {
-    width: auto;
-  }
   .sidebar {
     display: none;
   }
@@ -2858,6 +2871,14 @@ blockquote:after {
     position: static;
     left: 0;
   }
+}
+
+@media screen and (max-width: 760px) {
+  .top_line_header {
+    width: auto;
+  }
+  
+  
   .main_content:first-child {
     margin-left: auto;
   }

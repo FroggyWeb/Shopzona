@@ -170,8 +170,13 @@
           <div class="main_content">
             <div class="banner bg_box">
               <div class="banner_wrap">
-                <div id="bann_01"><a href="#"><img src="img/temp/banner_back.jpg" alt="Акция баннер"></a><script type="text/javascript">
-                  swfobject.embedSWF("http://xn--80abnaaxhnha8af.xn--p1ai/portfolio/5/9_mcfer_660x120.swf", "bann_01", "580", "110", "8");
+                <div id="bann_01"><a href="#">
+                  <img src="img/temp/banner_back.jpg" alt="Акция баннер"></a>
+                  <script type="text/javascript">
+                    var flashvars = {};
+                    var params = { scale: "exactFit" };
+                    var attributes = {};
+                    swfobject.embedSWF("http://xn--80abnaaxhnha8af.xn--p1ai/portfolio/5/9_mcfer_660x120.swf", "bann_01", "100%", "100%", "9.0.0", "expressInstall.swf", flashvars, params, attributes);
                   </script>
                 </div>
               </div>
@@ -183,7 +188,7 @@
                 <li class="breadcrumb_item">Косметика и парфюмерия</li>
               </ul>
               <div class="article">
-                <h1>Косметика и парфюмерия</h1>
+                <h1><a class="article-title__link" href="#">Косметика и парфюмерия</a></h1>
                 <div class="block_warning block_akcent">
                   <p class="warning_title">ВНИМАНИЕ! </p>
                   <p>
@@ -217,17 +222,17 @@
                 </div>
                 <div class="comment">
                   <div class="post">
-                    <div class="post__title">#1 Таня 05.02.2013 22:59</div>
+                    <div class="post__title">#1 Таня <span class="post__data">05.02.2013 22:59</span></div>
                     <div class="post_cnt"><p>Кто-нибудь заказывал оттуда? там я так поняла только по ес доставка и Норвегия отдельно прописана. Ничего про остальные страны не нашла. Как и в интернете отзывов, что кто-то пользовался этим магазином.</p></div>
                     <a href="#" class="post__link-cite">цитировать</a> 
                     <a href="#" class="post__link-up"></a> 
                     <a href="#" class="post__link-down"></a> 
                   </div>
                   <div class="post">
-                    <div class="post__title">#1 Таня 05.02.2013 22:59</div>
+                    <div class="post__title">#1 Таня <span class="post__data">05.02.2013 22:59</span></div>
                     <div class="post__cite">
                       <div class="post__title">Цитирую MegaM:</div>
-                      <p>Хотелось бы еще подсказать один сайтик http://www.bf-beauty.com/
+                      <p>Хотелось бы еще подсказать один сайтик <a href="#"  rel="nofollow">http://www.bf-beauty.com/</a>
                         Чего там только нет...и профессиональны е палитры, кисти, все для наращивания ногтей, 
                         разные аксессуары для ногтей, декоративная косметика!
                         Доставка вроде всюду!
@@ -377,7 +382,32 @@
                   <h2 class="section_title">Мы в соцсетях</h2></a>
               </div>
               <div class="social-side bg_box pad">
-                
+                <div class="bannerheader"><script type="text/javascript" src="//vk.com/js/api/openapi.js?101"></script>
+
+
+                <!-- VK Widget -->
+                <div id="vk_groups" style="margin-bottom: 20px;"></div>
+                <script type="text/javascript">
+                VK.Widgets.Group("vk_groups", {mode: 0, width: "225", height: "250", color1: 'fff5e3', color2: '029ab2', color3: '363330'}, 21553922);
+                </script>
+                <p></p>
+                <div id="ok_group_widget"></div>
+                <script>
+                !function (d, id, did, st) {
+                  var js = d.createElement("script");
+                  js.src = "http://connect.ok.ru/connect.js";
+                  js.onload = js.onreadystatechange = function () {
+                  if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+                    if (!this.executed) {
+                      this.executed = true;
+                      setTimeout(function () {
+                        OK.CONNECT.insertGroupWidget(id,did,st);
+                      }, 0);
+                    }
+                  }}
+                  d.documentElement.appendChild(js);
+                }(document,"ok_group_widget","50829344571578","{width:225,height:275}");
+                </script></div>
               </div>
 
             </div>
