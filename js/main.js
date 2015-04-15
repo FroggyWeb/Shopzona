@@ -38,6 +38,7 @@ $(document).ready(function() {
       slide: ".kupon_item_wrap",
       slidesToShow: 3,
       slidesToScroll: 1,
+      infinite: false,
       responsive: [
                     {
                       breakpoint: 800,
@@ -82,6 +83,10 @@ $(document).ready(function() {
   });
   $('#up-btn').click(function(){
     $('body,html').stop(false,false).animate({scrollTop:0},800);return false;
+  });
+
+  /*Fancybox*/
+  $(".fancybox").fancybox({
   });
 
 
