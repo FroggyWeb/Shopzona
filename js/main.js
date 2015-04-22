@@ -89,5 +89,13 @@ $(document).ready(function() {
   $(".fancybox").fancybox({
   });
 
+  /*comment form*/
+  $('.add_comment_btn').on('click', function(event){
+    event.preventDefault();
+    $(this).hide('', function() {
+      $('.comment-form-wrap').slideDown();
+    });
+  });
+
 
 });
