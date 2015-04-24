@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $('.art-menu').slicknav({
     label: "",
+    closedSymbol: " ",
+    openedSymbol: " ",
     //prependTo: $('.top_line_header')
     prependTo: $('.art-nav')
   });
@@ -25,6 +27,7 @@ $(document).ready(function() {
   });
 
   $('.fs-custom-pager-wrapper a').each(function(i){
+    console.log(i);
     $(this).append('<span>' + (i + 1) + '</span>' + 'ШАГ' )
   });
 
@@ -55,7 +58,7 @@ $(document).ready(function() {
                   ]
     });
 
-  /*Блоки в хедеое для мобилок*/
+  /*выпадающий список соцсетей для мобилок*/
   
 
   $('.mob-pse-link').on('click', function(event){
@@ -86,11 +89,14 @@ $(document).ready(function() {
   });
 
   /*Fancybox*/
+  $(".fancybox").each(function() {
+    $(this).attr('rel', 'article');
+  });
   $(".fancybox").fancybox({
   });
 
   /*comment form*/
-  $('.add_comment_btn').on('click', function(event){
+  $('#add_comment').on('click', function(event){
     event.preventDefault();
     $(this).hide('', function() {
       $('.comment-form-wrap').slideDown();
